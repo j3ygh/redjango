@@ -20,4 +20,10 @@ This template provides
 3. source .venv/bin/activate
 4. pip install invoke
 5. invoke updateconfig
-6. ... install what you want/ what you need
+6. ... install what you want/ what you need, usually I will do:
+
+    1. pip install django
+    2. pip install django-rest-framework
+    3. pip install django-cors-headers
+    4. npx create-react-app . ( Or do this first for not conflicting with the existing files)
+    5. https://tailwindcss.com/docs/guides/create-react-app
